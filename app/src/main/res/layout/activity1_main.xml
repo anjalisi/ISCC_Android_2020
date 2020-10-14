@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="502dp"
+        android:layout_height="743dp"
+        app:srcCompat="@drawable/app2"
+        tools:layout_editor_absoluteX="-44dp"
+        tools:layout_editor_absoluteY="-12dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="47dp"
+        android:background="#FFEB3B"
+        android:lineSpacingExtra="12sp"
+        android:text="MENU"
+        android:textColor="#9C27B0"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:flow_horizontalAlign="center"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="244dp"
+        android:layout_height="59dp"
+        android:background="#9C27B0"
+        android:text="BOOKMARKS"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="233dp"
+        android:layout_height="55dp"
+        android:background="#9C27B0"
+        android:text="TO-DO LIST"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="229dp"
+        android:layout_height="70dp"
+        android:background="#9C27B0"
+        android:text="LIVE CHAT"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
