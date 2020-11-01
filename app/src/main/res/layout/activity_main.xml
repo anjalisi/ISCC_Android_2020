@@ -1,69 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="10dp"
-    tools:context=".MainActivity">
+    android:background="#5DA2D5"
+    >
 
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_centerInParent="true">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="732dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/app1" />
+        <ImageView
+            android:id="@+id/logoImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/whitelogo" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="376dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="32dp"
-        android:background="#FFEB3B"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="MANAGE EXAM STRESS"
-        android:textColor="#9C27B0"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="16dp" />
+        <RelativeLayout
+            android:id="@+id/rellay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logoImg">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="186dp"
-        android:layout_height="59dp"
-        android:background="#9C27B0"
-        android:text="LOGIN"
-        android:textColor="#FFEB3B"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="344dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="180dp"
-        android:layout_height="56dp"
-        android:background="#C05AD1"
-        android:text="SIGN UP"
-        android:textColor="#FFEB3B"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="438dp" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_todolist"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:title="To-Do List" />
+
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/ic_baseline_bookmarks_24"
+            android:title="Bookmarks" />
+    </group>
+
+    <item android:title="Chat">
+        <menu>
+            <item
+                android:id="@+id/nav_chat"
+                android:icon="@drawable/ic_baseline_message_24"
+                android:title="All Chats" />
+            <item
+                android:id="@+id/nav_userchat"
+                android:icon="@drawable/ic_baseline_message_24"
+                android:title="Users" />
+        </menu>
+    </item>
+
+
+    <item android:title="To-Do List">
+        <menu>
+            <item
+                android:id="@+id/nav_newNote"
+                android:icon="@drawable/ic_baseline_note_add_24"
+                android:title="Add Notes" />
+        </menu>
+    </item>
+
+    <item android:title="Ebook">
+        <menu>
+            <item
+                android:id="@+id/nav_uploadebook"
+                android:icon="@drawable/ic_baseline_menu_book_24"
+                android:title="Upload Book" />
+            <item
+                android:id="@+id/nav_listbook"
+                android:icon="@drawable/ic_baseline_featured_play_list_24"
+                android:title="All Books" />
+
+        </menu>
+    </item>
+</menu>

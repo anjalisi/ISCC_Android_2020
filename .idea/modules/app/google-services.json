@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "513971738989",
+    "firebase_url": "https://books-n-stuff.firebaseio.com",
+    "project_id": "books-n-stuff",
+    "storage_bucket": "books-n-stuff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513971738989:android:e423eaf5c78c093aece264",
+        "android_client_info": {
+          "package_name": "com.example.iscc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513971738989-u3ldnqc3ldkhb8lfvvh4tepq7rs4992f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iscc",
+            "certificate_hash": "69fd7d1c6316c8a356db5845956db951fcbd913e"
+          }
+        },
+        {
+          "client_id": "513971738989-cbcgrf2n71duhn0kgsih1gdflpnfp3st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Pp4S4icj7hPh6_czjLZKqacDfa8OcPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513971738989-cbcgrf2n71duhn0kgsih1gdflpnfp3st.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

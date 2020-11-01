@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.iscc.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_todolist"
+        android:name="com.example.iscc.ui.todolist.ToDoList"
+        android:label="To-Do List"
+        tools:layout="@layout/to_do_list_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_newNote"
+        android:name="com.example.iscc.ui.todolist.AddNotes"
+        android:label="Add Note"
+        tools:layout="@layout/fragment_add_notes"/>
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.iscc.ui.chat.ChatFragment"
+        android:label="Chat Live"
+        tools:layout="@layout/fragment_chat"/>
+
+
+    <fragment
+        android:id="@+id/nav_userchat"
+        android:name="com.example.iscc.ui.chat.UserFragment"
+        android:label="All Users"
+        tools:layout="@layout/fragment_teacher_users"/>
+
+    <fragment
+        android:id="@+id/nav_uploadebook"
+        android:name="com.example.iscc.ui.uploadbook.UploadFragments"
+        android:label="Upload Ebook"
+        tools:layout="@layout/upload_document"/>
+
+    <fragment
+        android:id="@+id/nav_listbook"
+        android:name="com.example.iscc.ui.allbooks.EbookActivity"
+        android:label="Ebooks"
+        tools:layout="@layout/fragment_all_books"/>
+
+    <fragment
+        android:id="@+id/nav_bookmark"
+        android:name="com.example.iscc.ui.bookmarks.BookMark"
+        android:label="BookMarked"
+        tools:layout="@layout/fragment_all_books"/>
+
+</navigation>
